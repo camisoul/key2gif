@@ -38,7 +38,7 @@ def ReadNormalLines(f):
 
 def LoadInput(filename):
     result = []
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='UTF-8') as f:
         lines = ReadNormalLines(f)
         for line in lines:
             i, o = line.split('|')
@@ -49,7 +49,7 @@ def LoadInput(filename):
 def LoadTable(filename):
     # キーと座標のテーブルを作成
     keytable = []
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='UTF-8') as f:
         lines = ReadNormalLines(f)
         # 最初の1行はテキストエリアの高さ
         text_height = int(lines[0])
