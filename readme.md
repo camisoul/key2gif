@@ -5,6 +5,12 @@
 
 ## 使い方
 
+`python3`、および、`pillow`が必要です。
+
+```sh
+$ pip install Pillow
+```
+
 `input.txt`に可視化したいデータを登録し、`keyboard.py`を実行。
 `output.gif`という名前で、640x360のサイズで出力されます。
 
