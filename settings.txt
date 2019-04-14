@@ -1,0 +1,39 @@
+[main]
+# キーテーブルファイル名
+File : keytable.txt
+# 入力ファイル名
+Input : input.txt
+# 出力ファイル名
+Output : output.gif
+# 出力ファイルの横幅（Default=640のときリサイズなし）
+OutputWidth = 640
+# 1フレームにかかる時間（ミリ秒）
+Duration = 100
+# 1キー入力にかけるフレーム数
+Wait = 2
+# キー入力開始までの待ちフレーム数
+PreWait = 10
+# キー入力終了後の待ちフレーム数
+PostWait = 10
+
+[display]
+# 出力文字列のフォント
+TextFont : migu-1m-bold.ttf
+TextFontSize = 30
+# 出力文字列の色
+TextColor = #003300
+# キーボードのキー文字に使われるフォント
+KeyFont : migu-1m-bold.ttf
+KeyFontSize = 12
+# キーボードのキー文字の色
+KeyColor = #333333
+# キーの形を描画する色
+ForeGroundColor = #000000
+# 背景の色
+BackGroundColor = #FFFFFF
+
+[animation]
+# キーが非表示になるまでのフレーム数
+Duration = 4
+# キーの光る色
+Color = #FF3333
